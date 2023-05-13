@@ -25,7 +25,7 @@ void enqueue(int x) {
 void dequeue() {
     struct Node* temp = front;
     if(front == NULL) {
-        printf("Kuyruk bos!\n");
+        printf("Kuyruk bosss!\n");
         return;
     }
     if(front == rear) {
@@ -40,7 +40,7 @@ void dequeue() {
 void display() {
     struct Node* temp = front;
     if(front == NULL) {
-        printf("Kuyruk bos!\n");
+        printf("Kuyruk bosss!\n");
         return;
     }
     while(temp != NULL) {
@@ -53,10 +53,10 @@ void display() {
 int main() {
     int choice, x;
     while(1) {
-        printf("1. Kuyrukta Eleman Ekle\n");
-        printf("2. Kuyruktan Eleman Cikar\n");
-        printf("3. Kuyruktaki Elemanlari Goster\n");
-        printf("4. Cikis\n");
+        printf("1. Kuyrukta Eleman Ekleme islemi\n");
+        printf("2. Kuyruktan Eleman Cikarma islemi\n");
+        printf("3. Kuyruktaki Elemanlari Gosterme islemi\n");
+        printf("4. Cikis islemi\n");
         printf("Secim yapiniz: ");
         scanf("%d",&choice);
         switch(choice) {
